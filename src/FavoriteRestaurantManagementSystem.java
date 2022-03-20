@@ -16,7 +16,6 @@ public class FavoriteRestaurantManagementSystem {
             System.out.println("6. Exit");
             System.out.println("Select one number between 1-6:");
             num = input.nextInt();
-            input.nextLine();
             
             if (num == 1) {
                 AddRestaurant();
