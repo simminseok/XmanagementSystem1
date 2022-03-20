@@ -33,34 +33,34 @@ public class FavoriteRestaurantManagementSystem {
             else { 
             	continue;
             }
-		}
 	}
+    }
 	
-	public static void AddRestaurant() {
-	    Scanner input = new Scanner(System.in);
-	    System.out.print("Restaurant Name: ");
-	    String R_Name = input.nextLine();
+    public static void AddRestaurant() {
+        Scanner input = new Scanner(System.in);
+	System.out.print("Restaurant Name: ");
+	String R_Name = input.nextLine();
         System.out.print("Restaurant Address: ");
         String R_Address = input.nextLine();
         System.out.print("Phone Number: ");
         int R_Number = input.nextInt();
-	}
+    }
 	
-	public static void DeleteRestaurant() {
-	    Scanner input = new Scanner(System.in);
-	    System.out.print("Restaurant Name: ");
-	    String R_Name = input.nextLine();
-	}
+    public static void DeleteRestaurant() {
+	Scanner input = new Scanner(System.in);
+	System.out.print("Restaurant Name: ");
+	String R_Name = input.nextLine();
+    }
 	
-	public static void EditRestaurant() {
-	    Scanner input = new Scanner(System.in);
-	    System.out.print("Restaurant Name: ");
-	    String R_Name = input.nextLine();
-	}
+    public static void EditRestaurant() {
+	Scanner input = new Scanner(System.in);
+	System.out.print("Restaurant Name: ");
+	String R_Name = input.nextLine();
+    }
 	
-	public static void VeiwRestaurant() {
-	    Scanner input = new Scanner(System.in);
-	    System.out.print("Restaurant Name: ");
-	    String R_Name = input.nextLine();
-	}
+    public static void VeiwRestaurant() {
+	Scanner input = new Scanner(System.in);
+	System.out.print("Restaurant Name: ");
+	String R_Name = input.nextLine();
+    }
 }
