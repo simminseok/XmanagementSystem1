@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class FavoriteRestaurantManagementSystem {
 
-	public static void main(String[] args) {
-		int num = 0;
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+	int num = 0;
+	Scanner input = new Scanner(System.in);
 		
-		while (num != 6) {
-			System.out.println("¡ÚStudent Management System Menu¡Ú");
+	while (num != 6) {
+	    System.out.println("Â¡ÃšStudent Management System MenuÂ¡Ãš");
             System.out.println("1. Add Restaurant");
             System.out.println("2. Delete Restaurant");
             System.out.println("3. Edit Restaurant");
