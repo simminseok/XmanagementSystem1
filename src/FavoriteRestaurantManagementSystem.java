@@ -7,7 +7,7 @@ public class FavoriteRestaurantManagementSystem {
 	Scanner input = new Scanner(System.in);
 		
 	while (num != 6) {
-	    System.out.println("¡ÚStudent Management System Menu¡Ú");
+	    System.out.println("!! Student Management System Menu !!");
             System.out.println("1. Add Restaurant");
             System.out.println("2. Delete Restaurant");
             System.out.println("3. Edit Restaurant");
